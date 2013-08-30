@@ -6,6 +6,8 @@ if we are on mobile
     if `href` begins with any of {{social network urls}} / alternatively: / if class is any of {{app names}}
       on click
         add a new action on click: goto {{app name}:{uri scheme handler}}
+        also
+        default link action (fallback for when/if app isn't installed, uri handler fails, etc)
 
 
 URI Schema Handlers: (waiting until called)
